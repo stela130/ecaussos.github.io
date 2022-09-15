@@ -53,21 +53,14 @@ html, body{
     display: block;
 }
 
-.item-rec-dropdown{
-	position: absolute;
-	background-color: #fff;
-	color: #212529;
-	display: none;
-}
-
-.item-cad-dropdown{
+.item-dropdown{
     position: absolute;
     background-color: #fff;
     color: #212529;
     display: none;
 }
 
-.cad-item{
+.drop-item{
     display: block;
     text-decoration: none;
     padding: 0.25rem 1.5rem;
@@ -78,18 +71,18 @@ html, body{
     color: #ff9200;
 }
 
-.cad-item:hover{
+.drop-item:hover{
     background-color: #166f10;
     color: #ff9200;
     font-family: sans-serif;
     font-weight: bold;
 }
 
-.menu-item.reciclagem:focus + .item-rec-dropdown{ 
-  display: block;
+.menu-item.reciclagem:focus + .item-dropdown.rec{ 
+    display: block;
 }
 
-.menu-item.cadastro:focus + .item-cad-dropdown{ 
+.menu-item.cadastro:focus + .item-dropdown.cad{ 
     display: block;
 }
 
@@ -98,7 +91,7 @@ html, body{
     position: absolute;
     width: 100%;
     height: -webkit-fill-available;
-    padding-top: 16%;
+    padding-top: 20%;
     font-family: sans-serif;
     color: #fff;
     text-align: center;
