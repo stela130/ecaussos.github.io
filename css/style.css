@@ -53,6 +53,13 @@ html, body{
     display: block;
 }
 
+.item-rec-dropdown{
+	position: absolute;
+	background-color: #fff;
+	color: #212529;
+	display: none;
+}
+
 .item-cad-dropdown{
     position: absolute;
     background-color: #fff;
@@ -76,6 +83,10 @@ html, body{
     color: #ff9200;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.menu-item.reciclagem:focus + .item-rec-dropdown{ 
+  display: block;
 }
 
 .menu-item.cadastro:focus + .item-cad-dropdown{ 
