@@ -68,8 +68,15 @@ html, body{
 .item-dropdown{
     position: absolute;
     background-color: #fff;
-    width: 10%;
     margin-left: 1%;
+}
+
+.item-dropdown.menu{
+    width: 13%;
+}
+
+.item-dropdown.login{
+    width: 10%;
 }
 
 .drop-item{
