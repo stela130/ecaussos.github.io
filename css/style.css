@@ -69,9 +69,6 @@ html, body{
     position: absolute;
     background-color: #fff;
     margin-left: 1%;
-}
-
-.item-dropdown.menu{
     width: 13%;
 }
 
