@@ -76,6 +76,13 @@ html, body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+}
+
+.inf-ico{
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
 }
 
 .fld-txt{
@@ -85,6 +92,7 @@ html, body{
     border: none;
     font-size: 25px;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .frm-btn.acesso{
@@ -105,12 +113,21 @@ html, body{
 
 .btn:hover, .fld-txt:hover{
     background-color: #ff9200;
-    color: #166f10;
+    color: white;
     font-family: sans-serif;
     font-weight: bold;
 }
 
 .fld-txt:focus{
-	background-color: white;
-	color: black;
+    background-color: #ffffff;
+    color: black;
 }
+
+.inf-ico:hover{
+    color: #ff9200;
+
+}
+
+
+
+
