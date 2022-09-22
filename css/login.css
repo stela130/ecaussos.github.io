@@ -109,6 +109,7 @@ html, body{
     border-radius: 16px;
     border: none;
     font-size: 32px;
+    background-color: #ffffff;
 }
 
 .btn:hover, .fld-txt:hover{
