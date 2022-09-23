@@ -129,6 +129,12 @@ html, body{
 
 }
 
+.fld-acs.usr:hover .inf-ico.usr{
+    color: #ff9200;
+}
 
+.fld-acs.pwd:hover .inf-ico.pwd{
+    color: #ff9200;
+}
 
 
