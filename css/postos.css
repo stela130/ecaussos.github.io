@@ -146,18 +146,6 @@ html, body{
     letter-spacing: 0.6rem;
 }
 
-/* SECTION */
-
-.cont-section{
-    height: 100%;
-}
-
-.frm-pst{
-    border: 1px solid;
-    width: 100%;
-    height: 50%;
-}
-
 /* FOOTER */
 
 .footer-banner{
@@ -233,4 +221,48 @@ html, body{
 .corp-txt{
     margin: auto;
 }
+
+/* SECTION */
+
+.cont-section{
+    height: 100%;
+}
+
+.sct-pst{
+    background-color: blue;
+    height: inherit;
+}
+
+.pst-title{
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.pst-lst-map{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lst-pst{
+    background-color: red;
+    width: 20%;
+    letter-spacing: 2px;
+}
+
+.lst-title{
+    font-size: 26px;
+}
+
+li{
+    font-size: 23px;
+    margin: 14px;
+}
+
+.pst-map{
+    background-color: green;
+    width: 76%;
+}
+
 
